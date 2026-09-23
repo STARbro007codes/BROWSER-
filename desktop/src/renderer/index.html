@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SiteLock Secure Desktop Browser</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Top Browser Chrome -->
+  <header id="browser-chrome">
+    <!-- Tabs Bar -->
+    <div id="tab-bar">
+      <div id="tabs-container">
+        <!-- Rendered by renderer.js -->
+      </div>
+      <button id="btn-new-tab" title="New Tab">+</button>
+    </div>
+
+    <!-- Navigation & Address Bar -->
+    <div id="toolbar">
+      <div class="nav-buttons">
+        <button id="btn-back" title="Back" disabled>←</button>
+        <button id="btn-forward" title="Forward" disabled>→</button>
+        <button id="btn-reload" title="Reload">⟳</button>
+      </div>
+
+      <!-- Locked Address Container -->
+      <div id="address-bar-container">
+        <span class="lock-icon" title="Verified HTTPS Domain">🔒</span>
+        <span id="address-display">https://example.com</span>
+        <span class="locked-chip">LOCKED SITE</span>
+      </div>
+
+      <!-- Controls -->
+      <div class="tool-actions">
+        <button id="btn-kiosk" title="Toggle Kiosk Mode">⛶</button>
+        <button id="btn-security" title="Security Status">🛡️</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Blocked Notification Toast -->
+  <div id="blocked-toast" class="hidden">
+    <span class="toast-icon">⚠️</span>
+    <span id="blocked-toast-msg">External navigation blocked</span>
+  </div>
+
+  <!-- Webviews Container -->
+  <main id="webview-container">
+    <webview id="active-webview" src="https://example.com" partition="persist:sitelock" autosize="on"></webview>
+  </main>
+
+  <script src="renderer.js"></script>
+</body>
+</html>

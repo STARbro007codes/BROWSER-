@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Browser window outline -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M28,26 C24.69,26 22,28.69 22,32 L22,76 C22,79.31 24.69,82 28,82 L80,82 C83.31,82 86,79.31 86,76 L86,32 C86,28.69 83.31,26 80,26 L28,26 Z M28,30 L80,30 C81.1,30 82,30.9 82,32 L82,40 L26,40 L26,32 C26,30.9 26.9,30 28,30 Z M82,44 L82,76 C82,77.1 81.1,78 80,78 L28,78 C26.9,78 26,77.1 26,76 L26,44 L82,44 Z" />
+    
+    <!-- Browser dots in header -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M31,35 A2,2 0 1,0 31,35.01 Z M38,35 A2,2 0 1,0 38,35.01 Z M45,35 A2,2 0 1,0 45,35.01 Z" />
+    
+    <!-- Central Shield & Padlock -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,48 C49.03,48 45,52.03 45,57 L45,60 L43,60 C41.9,60 41,60.9 41,62 L41,72 C41,73.1 41.9,74 43,74 L65,74 C66.1,74 67,73.1 67,72 L67,62 C67,60.9 66.1,60 65,60 L63,60 L63,57 C63,52.03 58.97,48 54,48 Z M54,51 C57.31,51 60,53.69 60,57 L60,60 L48,60 L48,57 C48,53.69 50.69,51 54,51 Z M54,65 C55.1,65 56,65.9 56,67 C56,67.74 55.4,68.39 54.67,68.58 L54.67,70.5 C54.67,70.87 54.37,71.17 54,71.17 C53.63,71.17 53.33,70.87 53.33,70.5 L53.33,68.58 C52.6,68.39 52,67.74 52,67 C52,65.9 52.9,65 54,65 Z" />
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "SiteLock Browser",
+  "description": "A dedicated locked single-site browser container with strict navigation guards and modern desktop UI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
